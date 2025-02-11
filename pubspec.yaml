@@ -1,0 +1,63 @@
+name: foodly
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  google_maps_flutter:
+  flutter_polyline_points:
+  geolocator:
+  geocoding:
+  flutter_screenutil:
+  google_fonts:
+  get:
+  flutter_vector_icons:
+  cached_network_image:
+  flutter_rating_bar:
+  flutter_hooks:
+  http:
+  shimmer:
+  glass:
+  flutter_svg:
+  lottie:
+  get_storage:
+  webview_flutter:
+  webview_flutter_android:
+  webview_flutter_wkwebview:
+  device_preview:
+  otp_text_field:
+  firebase_auth:
+  firebase_core:
+  country_picker:
+  neat_cache:
+  phone_otp_verification:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/anime/
+    - assets/icons/
+
+
