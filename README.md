@@ -82,12 +82,6 @@ country_picker: ^2.0.23
 ## GitHub Repository
 [GitHub - Food Family](https://github.com/Ariful2016/Food-Family)
 
-## Git Tags
-```sh
-git tag -a v1.0.0 -m "Initial release"
-git push origin v1.0.0
-```
-
 ---
 Developed with ❤️ using Flutter, Node.js, and Firebase. Happy Coding! 🚀
 
