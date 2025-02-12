@@ -2,10 +2,7 @@
 
 Food Family is a **Flutter-based** mobile application that allows users to order food from nearby restaurants with dynamic recommendations and seamless navigation.
 
-
-https://github.com/user-attachments/assets/3eef7c7c-457e-4611-9cb1-1d331ced623f
-
-
+https://github.com/user-attachments/assets/10c3da1e-3a7e-4561-8d50-7bbf738d80c5
 
 ## Features
 - **Location-Based Recommendations**: Dynamic food and restaurant suggestions based on user location.
