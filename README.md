@@ -1,38 +1,93 @@
-# Shopping Events
+# Food Family
 
-Shopping Events is an Android application that helps users manage shopping-related events efficiently. Users can add, edit, and delete events seamlessly while following modern Android development practices.
+Food Family is a **Flutter-based** mobile application that allows users to order food from nearby restaurants with dynamic recommendations and seamless navigation.
 
 ## Features
-- View a list of shopping events
-- Add new events
-- Edit existing events
-- Delete events
-- Persist events using Room Database
+- **Location-Based Recommendations**: Dynamic food and restaurant suggestions based on user location.
+- **Restaurant & Food Discovery**: Explore food categories and get recommendations within the delivery radius.
+- **Distance & Delivery Calculation**:
+  - Calculate distance between the client and restaurant.
+  - Estimate delivery time and price.
+  - Navigate using maps from client’s location to the restaurant.
+- **Secure Authentication**:
+  - Email verification system.
+  - Phone number verification.
+- **Payment System**: Secure transactions between clients and admins.
+- **Ratings & Reviews**: Users can rate restaurant experience, delivery service, and food quality.
+- **Advanced Address System**: Uses multiple **map APIs** for precise address retrieval and delivery location.
 
 ## Tech Stack
-- **Kotlin**: Primary programming language
-- **Jetpack Compose**: Modern UI toolkit for building declarative UI
-- **Navigation Compose**: Handles in-app navigation
-- **Kotlin Serialization**: Efficient data serialization and deserialization
-- **Room Database**: Local data persistence
-- **Hilt**: Dependency injection for better scalability and maintainability
-- **MVVM Architecture**: Ensures a clean separation of concerns
+### Frontend
+- **Flutter**
+- **State Management**: GetX
+
+### Backend
+- **Node.js**
+- **MongoDB**
+- **Firebase**
 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Ariful2016/Shopping-Events-Compose.git
+   git clone https://github.com/yourusername/food-family.git
+   cd food-family
    ```
-2. Open the project in **Android Studio** (latest version).
-3. Sync the project with Gradle files.
-4. Run the app on an emulator or a physical device.
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the application:
+   ```sh
+   flutter run
+   ```
+
+## Dependencies
+The project utilizes the following Flutter packages:
+
+```yaml
+cupertino_icons: ^1.0.2
+google_maps_flutter: ^2.5.0
+flutter_polyline_points: ^2.0.0
+geolocator: ^7.0.3
+geocoding: ^2.0.0
+flutter_screenutil: ^5.9.0
+google_fonts: ^6.1.0
+get: ^4.6.6
+flutter_vector_icons: ^2.0.0
+cached_network_image: ^3.3.0
+flutter_rating_bar: ^4.0.1
+flutter_hooks: ^0.20.3
+http: ^1.1.0
+shimmer: ^3.0.0
+glass: ^1.0.2+1
+flutter_svg: ^2.0.9
+lottie: ^2.7.0
+get_storage: ^2.1.1
+webview_flutter: ^4.4.2
+webview_flutter_android: ^3.12.1
+webview_flutter_wkwebview: ^3.9.4
+device_preview: ^1.1.0
+otp_text_field: ^1.1.3
+firebase_auth: ^4.15.2
+firebase_core: ^2.24.2
+country_picker: ^2.0.23
+```
 
 ## Usage
-- Open the app and show the shopping events list.
-- Click the **Add Event** button to create a new event.
-- Select an event to edit or delete it.
-- The data is persisted using Room, ensuring events are saved even after restarting the app.
+- Open the app to explore nearby restaurants and food options.
+- Select a restaurant and place an order.
+- View estimated delivery time and track the order.
+- Securely make payments and rate the experience.
+
+## GitHub Repository
+[GitHub - Food Family](https://github.com/yourusername/food-family)
+
+## Git Tags
+```sh
+git tag -a v1.0.0 -m "Initial release"
+git push origin v1.0.0
+```
 
 ---
+Developed with ❤️ using Flutter, Node.js, and Firebase. Happy Coding! 🚀
 
-Happy Coding! 🚀
