@@ -1,4 +1,4 @@
-# foodly
+# Food Family
 
 A new Flutter project.
 
