@@ -29,8 +29,8 @@ Food Family is a **Flutter-based** mobile application that allows users to order
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/food-family.git
-   cd food-family
+   git clone https://github.com/Ariful2016/Food-Family.git
+   cd Food-Family
    ```
 2. Install dependencies:
    ```sh
@@ -80,7 +80,7 @@ country_picker: ^2.0.23
 - Securely make payments and rate the experience.
 
 ## GitHub Repository
-[GitHub - Food Family](https://github.com/yourusername/food-family)
+[GitHub - Food Family](https://github.com/Ariful2016/Food-Family)
 
 ## Git Tags
 ```sh
