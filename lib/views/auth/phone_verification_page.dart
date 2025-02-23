@@ -14,7 +14,7 @@ class PhoneVerificationPage extends StatefulWidget {
 }
 
 class _PhoneVerificationPageState extends State<PhoneVerificationPage> {
-  VerificationService _verificationService = VerificationService();
+  final VerificationService _verificationService = VerificationService();
 
   String _verificationId = '';
 

@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:foodly/constants/constants.dart';
-import 'package:foodly/controllers/category_controller.dart';
 import 'package:foodly/models/api_eror.dart';
 import 'package:foodly/models/foods_model.dart';
 import 'package:foodly/models/hook_models/foods_hook.dart';

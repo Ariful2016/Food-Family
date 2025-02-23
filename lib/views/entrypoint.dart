@@ -61,7 +61,7 @@ class MainScreen extends HookWidget {
                             icon: Icon(Icons.search), label: 'Search'),
                         const BottomNavigationBarItem(
                             icon: Badge(
-                                label: Text('1'),
+                                label: Text('0'),
                                 child: Icon(FontAwesome.opencart)),
                             label: 'Cart'),
                         BottomNavigationBarItem(

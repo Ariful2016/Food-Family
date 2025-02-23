@@ -10,7 +10,7 @@ import 'package:foodly/models/cart_response.dart';
 import 'package:get/get.dart';
 
 class CartTile extends StatelessWidget {
-  CartTile({super.key, required this.cart, this.color, this.refetch});
+  const CartTile({super.key, required this.cart, this.color, this.refetch});
 
   final CartResponse cart;
   final Color? color;

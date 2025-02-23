@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:foodly/constants/constants.dart';
 import 'package:foodly/models/api_eror.dart';
 import 'package:foodly/models/order_request.dart';
@@ -13,7 +12,7 @@ import 'package:http/http.dart' as http;
 
 class OrdersController extends GetxController {
   final box = GetStorage();
-  RxBool _isLoading = false.obs;
+  final RxBool _isLoading = false.obs;
 
   bool get isLoading => _isLoading.value;
 
@@ -21,7 +20,7 @@ class OrdersController extends GetxController {
     _isLoading.value = newState;
   }
 
-  RxString _paymentUrl = ''.obs;
+  final RxString _paymentUrl = ''.obs;
 
   String get paymentUrl => _paymentUrl.value;
 
@@ -39,7 +38,7 @@ class OrdersController extends GetxController {
 
   OrderRequest? order;
 
-  RxBool _iconChanger = false.obs;
+  final RxBool _iconChanger = false.obs;
 
   bool get iconChanger => _iconChanger.value;
 
