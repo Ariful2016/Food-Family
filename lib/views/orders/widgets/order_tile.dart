@@ -11,7 +11,7 @@ import 'package:foodly/models/foods_model.dart';
 import 'package:get/get.dart';
 
 class OrderTile extends StatelessWidget {
-  OrderTile({super.key, required this.food, this.color});
+  const OrderTile({super.key, required this.food, this.color});
 
   final FoodsModel food;
   final Color? color;

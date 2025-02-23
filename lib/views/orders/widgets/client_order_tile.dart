@@ -11,7 +11,7 @@ import 'package:foodly/models/client_orders.dart';
 import 'package:get/get.dart';
 
 class ClientOrderTile extends StatelessWidget {
-  ClientOrderTile({super.key, required this.food, this.color});
+  const ClientOrderTile({super.key, required this.food, this.color});
 
   final OrderItem food;
   final Color? color;

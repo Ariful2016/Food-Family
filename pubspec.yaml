@@ -40,7 +40,7 @@ dependencies:
   country_picker:
   neat_cache:
   phone_otp_verification:
-
+  flutter_otp_text_field: any
 
 dev_dependencies:
   flutter_test:

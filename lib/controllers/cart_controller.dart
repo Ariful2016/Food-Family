@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 class CartController extends GetxController {
   final box = GetStorage();
-  RxBool _isLoading = false.obs;
+  final RxBool _isLoading = false.obs;
 
   bool get isLoading => _isLoading.value;
 

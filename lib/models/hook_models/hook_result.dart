@@ -6,7 +6,7 @@ class FetchHook {
   final Exception? error;
   final VoidCallback? refetch;
 
-
+  // constructor
   FetchHook({
     required this.data,
     required this.isLoading,

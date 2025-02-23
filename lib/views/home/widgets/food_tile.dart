@@ -12,7 +12,7 @@ import 'package:foodly/views/food/food_page.dart';
 import 'package:get/get.dart';
 
 class FoodTile extends StatelessWidget {
-  FoodTile({super.key, required this.food, this.color});
+  const FoodTile({super.key, required this.food, this.color});
 
   final FoodsModel food;
   final Color? color;

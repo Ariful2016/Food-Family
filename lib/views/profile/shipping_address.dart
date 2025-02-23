@@ -34,7 +34,7 @@ class _ShippingAddressState extends State<ShippingAddress> {
   // _postalCode
   LatLng? _selectedPosition;
   List<dynamic> _placeList = [];
-  List<dynamic> _selectedPlace = [];
+  final List<dynamic> _selectedPlace = [];
 
   @override
   void initState() {
@@ -303,7 +303,7 @@ class _ShippingAddressState extends State<ShippingAddress> {
                             style: appStyle(12, kDark, FontWeight.w600)),
                         Obx(() => CupertinoSwitch(
                             thumbColor: kSecondary,
-                            trackColor: kPrimary,
+                            inactiveTrackColor: kPrimary,
                             value: locationController.isDefault,
                             onChanged: (value) {
                               locationController.setIsDefault = value;

@@ -2,7 +2,6 @@
 //
 //     final cartRequest = cartRequestFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 CartRequest cartRequestFromJson(String str) => CartRequest.fromJson(json.decode(str));

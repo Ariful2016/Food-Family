@@ -2,7 +2,6 @@
 //
 //     final successModel = successModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 SuccessModel successModelFromJson(String str) => SuccessModel.fromJson(json.decode(str));
