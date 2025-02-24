@@ -11,7 +11,7 @@ import 'package:get/get.dart';
 class NearbyRestaurants extends HookWidget {
   const NearbyRestaurants({super.key});
 
-  @override
+  /*@override
   Widget build(BuildContext context) {
     final hookResults = useFetchRestaurants("41007428");
     List<RestaurantsModel>? restaurants = hookResults.data;
@@ -38,5 +38,57 @@ class NearbyRestaurants extends HookWidget {
               }),
             ),
           );
+  }*/
+  @override
+  Widget build(BuildContext context) {
+    final hookResults = useFetchRestaurants("41007428");
+    List<RestaurantsModel>? restaurants = hookResults.data;
+    final isLoading = hookResults.isLoading;
+    final error = hookResults.error;
+
+    if (isLoading) {
+      return const NearbyShimmer();
+    }
+
+    if (error != null) {
+      return Center(
+        child: Text(
+          "Failed to load restaurants: ${error.toString()}",
+          style: TextStyle(color: Colors.red, fontSize: 14.sp),
+        ),
+      );
+    }
+
+    // Ensure restaurants is not null before using it
+    if (restaurants == null || restaurants.isEmpty) {
+      return Center(
+        child: Text(
+          "No nearby restaurants found",
+          style: TextStyle(fontSize: 14.sp, color: Colors.grey),
+        ),
+      );
+    }
+
+    return Container(
+      height: 190.h,
+      padding: EdgeInsets.only(left: 12.w, top: 10.h),
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: List.generate(restaurants.length, (i) {
+          RestaurantsModel restaurant = restaurants[i];
+          return RestaurantWidget(
+            onTap: () {
+              Get.to(() => RestaurantPage(restaurant: restaurant));
+            },
+            image: restaurant.imageUrl,
+            logo: restaurant.logoUrl,
+            title: restaurant.title,
+            time: restaurant.time,
+            rating: "7457",
+          );
+        }),
+      ),
+    );
   }
+
 }
