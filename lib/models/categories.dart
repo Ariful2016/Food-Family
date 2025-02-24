@@ -1,6 +1,7 @@
 // To parse this JSON data, do
 //
 //     final categiesModel = categiesModelFromJson(jsonString);
+// this model created by quicktype.io
 
 import 'dart:convert';
 

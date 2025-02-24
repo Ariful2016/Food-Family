@@ -1,3 +1,5 @@
+// this model created by quicktype.io
+
 import 'dart:convert';
 
 List<FoodsModel> foodsModelFromJson(String str) => List<FoodsModel>.from(json.decode(str).map((x) => FoodsModel.fromJson(x)));
