@@ -1,3 +1,5 @@
+// this model created by quicktype.io
+
 import 'dart:convert';
 
 ApiError apiErrorFromJson(String str) => ApiError.fromJson(json.decode(str));
