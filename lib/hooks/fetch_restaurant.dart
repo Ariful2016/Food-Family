@@ -8,6 +8,7 @@ import 'package:foodly/models/hook_models/restaurant_hook.dart';
 import 'package:foodly/models/restaurants_model.dart';
 import 'package:http/http.dart' as http;
 
+//call api to fetch nearby restaurant
 FetchRestaurant useFetchRestaurant(String code) {
   final restaurants = useState<RestaurantsModel?>(null);
   final isLoading = useState<bool>(false);
