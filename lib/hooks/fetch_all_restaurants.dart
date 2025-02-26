@@ -5,6 +5,7 @@ import 'package:foodly/models/hook_models/hook_result.dart';
 import 'package:foodly/models/restaurants_model.dart';
 import 'package:http/http.dart' as http;
 
+//call api to fetch all restaurant
 FetchHook useFetchAllRestaurants(String code) {
   final restaurants = useState<List<RestaurantsModel>?>(null);
   final isLoading = useState<bool>(false);
