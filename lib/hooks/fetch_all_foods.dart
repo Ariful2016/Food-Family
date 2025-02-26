@@ -6,6 +6,7 @@ import 'package:foodly/models/foods_model.dart';
 import 'package:foodly/models/hook_models/hook_result.dart';
 import 'package:http/http.dart' as http;
 
+//call api to fetch food by nearby
 FetchHook useFetchAllFoods(String code) {
   final foods = useState<List<FoodsModel>?>(null);
   final isLoading = useState<bool>(false);
