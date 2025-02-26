@@ -5,6 +5,7 @@ import 'package:foodly/models/hook_models/hook_result.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:http/http.dart' as http;
 
+// call api for fetch all category
 FetchHook useFetchAlCategories() {
   final categoriesItems = useState<List<CategoriesModel>?>(null);
   final isLoading = useState<bool>(false);

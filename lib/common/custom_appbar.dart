@@ -53,7 +53,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                   radius: 22.r,
                   backgroundColor: kSecondary,
                   backgroundImage: const NetworkImage(
-                      'https://d326fntlu7tb1e.cloudfront.net/uploads/bdec9d7d-0544-4fc4-823d-3b898f6dbbbf-vinci_03.jpeg'),
+                      'https://newprofilepic.photo-cdn.net//assets/images/article/profile.jpg?90af0c8'),
                 ),
                 Padding(
                   padding: EdgeInsets.only(bottom: 6.h, left: 8.w),
