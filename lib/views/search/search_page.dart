@@ -12,6 +12,7 @@ import 'package:foodly/views/search/loading_widget.dart';
 import 'package:foodly/views/search/search_results.dart';
 import 'package:get/get.dart';
 
+//create search page
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
 
