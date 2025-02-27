@@ -7,6 +7,7 @@ import 'package:foodly/models/foods_model.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
+//create search controller
 class SearchFoodController extends GetxController {
   RxBool _isLoading = false.obs;
 
