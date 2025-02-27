@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:foodly/common/app_style.dart';
 import 'package:foodly/constants/constants.dart';
 
+//custom text widget
 class CustomTextWidget extends StatelessWidget {
   const CustomTextWidget(
       {super.key,
