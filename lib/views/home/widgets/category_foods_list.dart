@@ -7,11 +7,13 @@ import 'package:foodly/hooks/fetch_category_foods.dart';
 import 'package:foodly/models/foods_model.dart';
 import 'package:foodly/views/home/widgets/food_tile.dart';
 
+
 class CategoryFoodsList extends HookWidget {
   const CategoryFoodsList({super.key});
 
   @override
   Widget build(BuildContext context) {
+    //call api to fetch category list
     final hookResult = useFetchFoodsByCategory("41007428");
     List<FoodsModel>? foods = hookResult.data;
     final isLoading = hookResult.isLoading;
