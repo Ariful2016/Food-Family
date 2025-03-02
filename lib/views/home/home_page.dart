@@ -29,6 +29,7 @@ class HomePage extends StatelessWidget {
             containerContent: Column(
           children: [
             const CategoryList(),
+            //Obx -> observe the value and update ui
             Obx(
               () => controller.categoryValue == ''
                   ? Column(
