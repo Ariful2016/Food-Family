@@ -61,6 +61,7 @@ class _FoodPageState extends State<FoodPage> {
       body: ListView(
         padding: EdgeInsets.zero,
         children: [
+          //for food image
           ClipRRect(
             borderRadius: BorderRadius.only(bottomRight: Radius.circular(30.r)),
             child: Stack(
@@ -146,6 +147,7 @@ class _FoodPageState extends State<FoodPage> {
                 SizedBox(
                   height: 10.h,
                 ),
+                //for title and price
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -163,6 +165,7 @@ class _FoodPageState extends State<FoodPage> {
                 SizedBox(
                   height: 5.h,
                 ),
+                //for description
                 Text(
                   widget.food.description,
                   textAlign: TextAlign.justify,
