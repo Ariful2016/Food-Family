@@ -202,6 +202,7 @@ class _FoodPageState extends State<FoodPage> {
                 SizedBox(
                   height: 15.h,
                 ),
+                //for Additives and Toppings
                 ReusableText(
                     text: "Additives and Toppings",
                     style: appStyle(18, kDark, FontWeight.w600)),
@@ -246,6 +247,7 @@ class _FoodPageState extends State<FoodPage> {
                 SizedBox(
                   height: 20.h,
                 ),
+                //for quantity increment and d
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
