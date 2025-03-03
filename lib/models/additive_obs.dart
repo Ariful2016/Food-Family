@@ -15,6 +15,7 @@ class AdditiveObs extends GetxController {
     isChecked.value = checked;
   }
 
+  //observe and update check box value
   void toggleChecked() {
     isChecked.value = !isChecked.value;
   }
