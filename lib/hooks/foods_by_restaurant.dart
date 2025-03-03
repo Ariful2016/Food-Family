@@ -8,6 +8,7 @@ import 'package:foodly/models/foods_model.dart';
 import 'package:foodly/models/hook_models/foods_hook.dart';
 import 'package:http/http.dart' as http;
 
+//call api for fetching restaurant foods by foods id
 FetchFoods useFetchrestaurantFoods(String id) {
   final foods = useState<List<FoodsModel>>([]);
   final isLoading = useState<bool>(false);
