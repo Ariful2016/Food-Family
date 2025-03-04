@@ -9,6 +9,8 @@ import 'package:foodly/views/auth/login_page.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
+
+//login redirect to check user is login or not
 class LoginRedirect extends StatelessWidget {
   const LoginRedirect({super.key});
 
