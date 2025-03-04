@@ -14,6 +14,7 @@ import 'package:foodly/views/auth/widget/password_textfield.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
+//login page
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
