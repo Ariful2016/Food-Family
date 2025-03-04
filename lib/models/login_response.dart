@@ -19,7 +19,6 @@ class LoginResponse {
     final String userType;
     final String profile;
     final String userToken;
-
     LoginResponse({
         required this.id,
         required this.username,

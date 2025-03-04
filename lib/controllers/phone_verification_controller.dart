@@ -57,7 +57,7 @@ class PhoneVerificationController extends GetxController {
 
 
         Get.snackbar(
-            "You are succefully verified", "Enjoy your awesome experience",
+            "You are successfully verified", "Enjoy your awesome experience",
             colorText: kLightWhite,
             backgroundColor: kPrimary,
             icon: const Icon(Ionicons.fast_food_outline));

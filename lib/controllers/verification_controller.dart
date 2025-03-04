@@ -22,7 +22,6 @@ class VerificationController extends GetxController {
   }
 
   RxBool _isLoading = false.obs;
-
   bool get isLoading => _isLoading.value;
 
   set setLoading(bool value) {
