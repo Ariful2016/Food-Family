@@ -26,6 +26,7 @@ class VerificationService {
         codeAutoRetrievalTimeout: (String verificationId) {});
   }
 
+  //Takes the OTP and verificationId, verifies it, and signs in the user
   Future<void> verifySmsCode(String verificationId, String smsCode) async {
     final PhoneAuthCredential credential = PhoneAuthProvider.credential(
         verificationId: verificationId, smsCode: smsCode);
