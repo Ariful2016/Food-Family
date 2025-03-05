@@ -7,6 +7,7 @@ class VerificationService {
   final controller = Get.put(PhoneVerificationController());
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
+  //Initiates phone number verification and sends an OTP
   Future<void> verifyPhoneNumber(String phoneNumber,
       {required Null Function(String verificationId, int? resendToken)
           codeSent}) async {
