@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
-String googleApiKey = 'AIzaSyBCOoQR2ovyrYRTPbqMAO5H0SHVeLfSjeY';
+String googleApiKey = 'AIzaSyCmcSi1ASeYZTnOrP4Xq_D8NPEXPzpMuqU'; //AIzaSyCmcSi1ASeYZTnOrP4Xq_D8NPEXPzpMuqU
 
 const kPrimary = Color(0xFF30b9b2);
 const kPrimaryLight = Color(0xFF40F3EA);
