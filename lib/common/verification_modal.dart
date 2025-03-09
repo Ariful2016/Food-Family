@@ -38,7 +38,7 @@ Future<dynamic> showVerificationSheet(BuildContext context) {
                       text: "Verify Your Phone Number",
                       style: appStyle(18, kPrimary, FontWeight.w600)),
                   SizedBox(
-                      height: 250.h,
+                      height: 287.h,
                       child: Column(
                         children:
                             List.generate(verificationReasons.length, (index) {
