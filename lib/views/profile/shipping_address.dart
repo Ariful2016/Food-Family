@@ -180,6 +180,7 @@ class _ShippingAddressState extends State<ShippingAddress> {
           children: [
             Stack(
               children: [
+                //set position and marker
                 GoogleMap(
                   onMapCreated: (GoogleMapController controller) {
                     _mapController = controller;
