@@ -61,6 +61,7 @@ class UserLocationController extends GetxController {
     _postalCode.value = value;
   }
 
+  //call google maps api
   void getUserAddress(LatLng posistion) async {
     final url = Uri.parse(
         'https://maps.googleapis.com/maps/api/geocode/json?latlng=${posistion.latitude},${posistion.longitude}&key=$googleApiKey');
