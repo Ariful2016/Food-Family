@@ -106,6 +106,8 @@ class _CustomAppBarState extends State<CustomAppBar> {
     }
   }
 
+
+  //location permission check and detect location
   Future<void> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
