@@ -69,6 +69,7 @@ class _ShippingAddressState extends State<ShippingAddress> {
     }
   }
 
+  //call google maps api to get address by place id
   void _getPlaceDetails(String placeId) async {
     final url = Uri.parse(
         'https://maps.googleapis.com/maps/api/place/details/json?place_id=$placeId&key=$googleApiKey');
