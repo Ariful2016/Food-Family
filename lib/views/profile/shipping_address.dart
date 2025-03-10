@@ -50,6 +50,8 @@ class _ShippingAddressState extends State<ShippingAddress> {
     super.dispose();
   }
 
+
+  //call google maps api with search place name
   void _onSearchChanged(String searchQuery) async {
     if (searchQuery.isNotEmpty) {
       final url = Uri.parse(
