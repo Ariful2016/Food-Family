@@ -107,7 +107,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
   }
 
 
-  //location permission check and detect location
+  //location permission check
   Future<void> _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
@@ -138,6 +138,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
     // continue accessing the position of the device.
   }
 
+  //detect current location of phone
   Future<void> _getCurentLocation() async {
     final controller = Get.put(UserLocationController());
     Position position = await Geolocator.getCurrentPosition(
