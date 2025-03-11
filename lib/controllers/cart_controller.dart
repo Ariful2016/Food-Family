@@ -15,6 +15,7 @@ class CartController extends GetxController {
     _isLoading.value = value;
   }
 
+  //call api for adding food to cart
   void addToCart(String cart) async {
     setLoading = true;
 
