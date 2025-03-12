@@ -32,6 +32,7 @@ class OrderPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(OrdersController());
+    //distance calculation
     DistanceTime data = Distance().calculateDistanceTimePrice(
         restaurant!.coords.latitude,
         restaurant!.coords.longitude,
