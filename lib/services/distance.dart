@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:foodly/models/distance_time.dart';
 
 class Distance {
+  //distance calculation
   DistanceTime calculateDistanceTimePrice(double lat1, double lon1, double lat2,
       double lon2, double speedKmPerHr, double pricePerKm) {
     // Convert latitude and longitude from degrees to radians
