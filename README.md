@@ -61,7 +61,7 @@ flutter_rating_bar: ^4.0.1
 flutter_hooks: ^0.20.3
 http: ^1.1.0
 shimmer: ^3.0.0
-//glass: ^1.0.2+1
+glass: ^1.0.2+1
 flutter_svg: ^2.0.9
 lottie: ^2.7.0
 get_storage: ^2.1.1
