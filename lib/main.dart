@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Foodly',
+          title: 'Food Family',
           // You can use the library anywhere in the app even in theme
           theme: ThemeData(
               scaffoldBackgroundColor: kOffWhite,
