@@ -102,7 +102,7 @@ class ProfilePage extends StatelessWidget {
                       icon: SimpleLineIcons.location_pin),
                   ProfileTileWidget(
                       onTap: () {},
-                      title: "Sevice Center",
+                      title: "Service Center",
                       icon: AntDesign.customerservice),
                   ProfileTileWidget(
                       onTap: () {},
