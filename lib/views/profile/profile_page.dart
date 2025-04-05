@@ -32,7 +32,7 @@ class ProfilePage extends StatelessWidget {
       user = controller.getUserInfo();
     }
 
-    //check that user login or not
+
     if (token == null) {
       return const LoginRedirect();
     }
