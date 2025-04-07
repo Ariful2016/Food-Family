@@ -10,6 +10,7 @@ import 'package:get_storage/get_storage.dart';
 Widget defaultHome = MainScreen();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //initialize firebase
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await GetStorage.init();
   runApp(const MyApp());
