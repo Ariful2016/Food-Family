@@ -30,7 +30,6 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Food Family',
-          // You can use the library anywhere in the app even in theme
           theme: ThemeData(
               scaffoldBackgroundColor: kOffWhite,
               iconTheme: const IconThemeData(color: kDark),
