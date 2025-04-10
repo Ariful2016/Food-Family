@@ -33,7 +33,7 @@ class ProfilePage extends StatelessWidget {
     }
 
 
-    //check user login token
+    //check user login token is null if null then go login page
     if (token == null) {
       return const LoginRedirect();
     }
