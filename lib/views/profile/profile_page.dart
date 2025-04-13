@@ -37,7 +37,7 @@ class ProfilePage extends StatelessWidget {
     if (token == null) {
       return const LoginRedirect();
     }
-
+    //check user is null and verification is false if true then go login page
     if (user != null && user.verification == false) {
       return const VerificationPage();
     }
